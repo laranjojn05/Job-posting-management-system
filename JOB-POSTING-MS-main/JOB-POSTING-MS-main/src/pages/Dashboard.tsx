@@ -39,7 +39,7 @@ const Dashboard = () => {
   return (
     <div className="container mx-auto py-8 px-4">
       <div className="flex justify-between items-center mb-8">
-        <h1 className="text-2xl font-bold">Job Management System</h1>
+        <h1 className="text-2xl font-bold">Job Posting Management System</h1>
         <Button onClick={handleSignOut} variant="outline">Sign Out</Button>
       </div>
       <div className="max-w-3xl mx-auto">
