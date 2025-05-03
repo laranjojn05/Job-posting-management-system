@@ -55,7 +55,7 @@ const Auth = () => {
       } else {
         toast({
           title: type === "LOGIN" ? "Logged in successfully" : "Signed up successfully",
-          description: type === "LOGIN" ? "Welcome back!" : "Welcome to JBMS!",
+          description: type === "LOGIN" ? "Welcome back!" : "Welcome to JPMS!",
         });
         
         navigate("/dashboard");
@@ -75,7 +75,7 @@ const Auth = () => {
     <div className="min-h-screen flex items-center justify-center bg-gray-50 px-4">
       <Card className="w-full max-w-md">
         <CardHeader>
-          <CardTitle className="text-2xl text-center">Welcome to JBMS</CardTitle>
+          <CardTitle className="text-2xl text-center">Welcome to JPMS</CardTitle>
         </CardHeader>
         <CardContent className="space-y-4">
           <Input
