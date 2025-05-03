@@ -7,7 +7,7 @@ const Index = () => {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gray-50 px-4">
-      <h1 className="text-4xl font-bold mb-6">Welcome to JBMS</h1>
+      <h1 className="text-4xl font-bold mb-6">Welcome to JPMS</h1>
       <p className="text-xl text-gray-600 mb-8 text-center">
         A simple and powerful job management system
       </p>
